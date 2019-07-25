@@ -1,0 +1,17 @@
+This host supports Intel VT-x, but Intel VT-x is disabled.
+
+Intel VT-x might be disabled if it has been disabled in the BIOS/firmware settings or the host has not been power-cycled since changing this setting.
+
+(1) Verify that the BIOS/firmware settings enable Intel VT-x and disable 'trusted execution.'
+
+(2) Power-cycle the host if either of these BIOS/firmware settings have been changed.
+
+(3) Power-cycle the host if you have not done so since installing VMware Player.
+
+(4) Update the host's BIOS/firmware to the latest version.
+
+This host does not support "Intel EPT" hardware assisted MMU virtualization.
+
+Module 'CPUIDEarly' power on failed.
+
+Failed to start the virtual machine.
